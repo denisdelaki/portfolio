@@ -10,7 +10,9 @@ body{
     display: flex;
     justify-content: space-between;
 }
-
+#navigation h1{
+    margin-left: 0.5rem;
+}
 nav a{
     color: white;
     text-decoration: none;
@@ -47,4 +49,22 @@ img{
     color: white;
   display: flex;
     justify-content: space-between;
+}
+.header {
+    height: 180px;
+    width: 469px;
+    background-color: silver;
+    font-size: 20px;
+    margin: 2rem;
+    border-radius: 30px;
+}
+.project{
+    height: 2.5rem;
+    width: 202px;
+    height: 64px;
+    font-style: italic;
+    font-size: 30px;
+    border-radius: 21px;
+    margin-top: 4.5rem;
+
 }

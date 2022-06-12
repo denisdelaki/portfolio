@@ -6,28 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <link rel="stylesheet" href="./assets/css/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/4ca77255f7.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <div>
       <div id="navigation">
-        <div><h1>PORTFOLIO</h1></div>
+        <div><h1> <span>PORT</span>FOLIO</h1></div>
         <div>
           <nav>
-            <a href="#">HOME</a>
-            <a href="#">ABOUT ME</a>
-            <a href="#">SERVICES</a>
-            <a href="./contact.html">CONTACTS</a>
+            <a href="#Home-section">HOME</a>
+            <a href="#aboutme">ABOUT ME</a>
+            <a href="#servicesection">SERVICES</a>
+            <a href="#card">CONTACTS</a>
           </nav>
         </div>
       </div>
+      <section id="Home-section">
       <div id="home">
         <div class="profile">
           <img src="./assets/images/PROFILE.jpeg" alt="PROFILE" height="270px" width="280px"/>
-         <div class="name">
+         <div class="profilename">
           <h1>KIPYEGON DENIS</h1>
           </div>
         </div>
-        <div>
+      <div>
     <button class="hire">HIRE ME</button>
     </div>
         <div class="header">
@@ -35,15 +40,110 @@
          <button class="project">PROJECTS</button>
         </div>
       </div>
+      </section>
+      <section id="servicesection">
       <h1 class="services">SERVICES</h1>
       <div id="services">
-          <div class="card"></div>
-          <div class="card"></div>
-          <div class="card"></div>
+          <div class="card">
+            <h1 class="h1">Web Designer</h1>
+            <div class="descript">
+                 <h3>Description</h3>
+                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio dolorum suscipit quis rem veritatis atque commodi deleniti ipsam quas, perferendis blanditiis hic esse sed, doloribus necessitatibus molestias. Ut, rerum inventore!</p>
+            </div>
+            <div class="tools">
+              <h3> TOOLS </h3>
+                <ul>
+                  <li>FIGMA</li>
+                  <img src="./assets/images/figma.png" alt="figma">
+                   <input type="range" name="skills" value="80%" >80%
+                </ul>
+                 
+            </div>
+            </div>
+          <div class="card">
+                <h1 class="h1">Front-End-Developmet</h1>
+            <div class="descript">
+                 <h3>Description</h3>
+                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio dolorum suscipit quis rem veritatis atque commodi deleniti ipsam quas, perferendis blanditiis hic esse sed, doloribus necessitatibus molestias. Ut, rerum inventore!</p>
+            </div>
+            <div class="tools">
+              <h3> TOOLS </h3>
+              <img src="./assets/images/front.png" alt="figma">
+                <ul class="list">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JS</li>
+                  <input type="range" name="skills" value="80%" >80%
+                </ul>
+                 
+            </div> </div>
+          <div class="card">
+                <h1 class="h1">Back-End Development</h1>
+            <div class="descript">
+                 <h3>Description</h3>
+                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio dolorum suscipit quis rem veritatis atque commodi deleniti ipsam quas, perferendis blanditiis hic esse sed, doloribus necessitatibus molestias. Ut, rerum inventore!</p>
+            </div>
+            <div class="tools">
+              <h3> TOOLS </h3>
+                <ul>
+                  <li>JS</li>
+                  <li>PHP</li>
+                  
+                   <input type="range" name="skills" value="85%" >85%
+                </ul>
+                 
+            </div></div>
       </div>
-      <div id="footer">.
-          
-      </div>
+      </section>
+     
+    </div>
+    <div id="sections">
+    <!--The About me section -->
+    <section id="aboutme">
+      <div id="aboutbody">
+    <div id="about">
+        <div id="experience">
+            <h2>MY STORY</h2>
+            <p>Hello there! i am software engineer who turns your dreams and ideas to reality, from UI designs using Figma, I can provide you and your organization the prototype of your website, to turning the design to responsive, competitive website that puts your brand at the global level. For more information and insights, download my CV below and do not forget to pass through my latest projects and designs.SUPERB!!!!</p>
+           <a href="./assets/images/CV.odt" download> DOWNLOAD CV</a>
+        </div>
+        <div id="gallery">
+            <img src="./assets/images/photo.jpeg" alt="profile" height="80%">
+        </div>
+        <div id="personalinfo">
+            <h2>PERSONAL INFORMATION</h2>
+            <p>NAME:   KIPYEGON DENIS</p>
+            <p>AGE:    24 YEARS </p>
+            <p>GENDER: MALE</p>
+            <p>EMAIL:   denisdelaki@gmail.com</p>
+            <p>PHONE NO: +254703103852</p>
+             <p>PHONE NO: +254703361342</p>
+        </div>
+    </div>
+    </div>
+    </section>
+    <!--The contact form -->
+     <div id="card">
+        <div id="contact">
+            <img src="./assets/images/PROFILE.jpeg"  alt="PROFILE" height="270px" width="280px"/>
+             <h1>CONTACT ME</h1>
+             <i class="fa-brands fa-facebook"> Denis Delaki</i> <br>
+             <i class="fa-brands fa-twitter"> @Delaki</i> <br>
+             <i class="fa-brands fa-instagram"> Denis Delaki</i>
+        </div>
+       <div id="form">
+          <form id="contactform">
+            <div>
+            <p class="name"> <span>NA</span>ME: <input type="text" placeholder="Enter your name" required></p>
+            <p class="name"> <span>EM</span>AIL: <input type="email" placeholder="Enter your Email" required> </p>
+             <p class="name"> <span>CONT</span>ACT: <input type="number" placeholder="Contact info" required> </p>
+        </div>
+            <textarea cols="50" rows="15" required></textarea> <br>
+            <input type="submit" class="message" value="MESSAGE ME">
+          </form>
+    </div>
+    </div>
+    
     </div>
     <script src="./assets/js/script.js"></script>
   </body>
